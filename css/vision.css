@@ -1,0 +1,66 @@
+ .gallery {
+            list-style-type: none;
+            width: 100%;
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 1px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery > .image-viewer-item {
+           
+            height: 180px;
+            margin: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery > .image-viewer-item > img {
+            transition: opacity 300ms;
+        }
+
+        .gallery > .image-viewer-item > img:hover {
+            cursor: pointer;
+            opacity: .75;
+        }
+
+        .gallery > .image-viewer-item > img {
+           
+            max-height: 150px;
+        }
+
+/******************** chargement des polices d'écriture *********************/
+
+
+  @font-face {
+  font-family: 'goldman';
+  src: url('../fonts/goldman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'calibri';
+  src: url('../fonts/calibri.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caveat';
+  src: url('../fonts/Caveat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'gill';
+  src: url('../fonts/GILL Sans MT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/******************************fin des fonts ******************************/
